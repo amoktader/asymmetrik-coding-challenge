@@ -20,7 +20,7 @@ class Candidate():
     def isWord(self):
         return self.count > 0
     
-    # Add 1 to count of word
+    # Add 1 to count of word + new timestamp
     def updateCount(self):
         self.count += 1
         self.timestamp = datetime.now()
